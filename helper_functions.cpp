@@ -258,7 +258,7 @@ void saveProgress(const string& username, int
 {
     string timestamp = getCurrentDate();
     ofstream file("progress.txt");
-    file << username << " " << level << " " << lives << " " << gems << " " << highScore << " " << timestamp << "\n";
+    file << username << " " << " " << lives << " " << gems << " " << highScore << " " << timestamp << "\n";
     file.close();
 }
 
